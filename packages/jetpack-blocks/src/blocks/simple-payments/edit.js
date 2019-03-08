@@ -25,6 +25,7 @@ import ProductPlaceholder from './product-placeholder';
 import FeaturedMedia from './featured-media';
 import { __, _n } from '../../utils/i18n';
 import { decimalPlaces, formatPrice } from './utils';
+// FIXME: import { getCurrencyDefaults } from '@automattic/format-currency';
 import { getCurrencyDefaults } from '../../../../../client/lib/format-currency/currencies';
 import { SIMPLE_PAYMENTS_PRODUCT_POST_TYPE, SUPPORTED_CURRENCY_LIST } from './constants';
 
